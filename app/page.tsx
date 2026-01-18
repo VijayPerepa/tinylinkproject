@@ -43,17 +43,6 @@ export default async function Home() {
             center.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <Button asChild variant="outline" size="lg" className="rounded-full md:w-[158px]">
-            <a
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Documentation
-            </a>
-          </Button>
-        </div>
       </main>
     </div>
   );
